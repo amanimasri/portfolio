@@ -64,8 +64,7 @@ body {
 
 .desc-title{
    word-spacing: 0.65rem;
-    text-align: justify;
-  text-justify: inter-word;
+    
 }
 .description {
     text-align: justify;
@@ -87,23 +86,10 @@ body {
 
 
 /* ------------ Portfolio --------------*/
-
-.port-title{
-    text-align: justify;
-}
-
 .welcome {
     display: inline-block;
     padding-bottom: 10px;
     border-bottom: 2px solid var(--main-color);
-}
-
-.pad-sec-left{
-    padding-left: 9rem !important;
-}
-
-.pad-sec-right{
-    padding-right: 9rem !important;
 }
 
 /* ------------ contact  --------------*/
@@ -131,14 +117,32 @@ textarea {
     cursor: pointer;
 }
 
-.bi-house-fill {
-    font-size: 30px;
-    text-align: center;
-}
-
-
 @media screen and  (max-width: 600px){
+    .info-col {
+        padding-left: 10px !important;
+        margin-bottom: 40px;
+    }
+    .img-person2{
+        margin-bottom: 50px;
+    }
+    .aboutme-info{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     .social-media{
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .desc-text{
+        padding-left: 6.25rem !important;
+    }
+    .desc-text-right{
+        padding-right: 6.25rem !important;
+    }
+    .main-row{
+        padding: 1rem!important;
+        margin: 1rem!important;
     }
 }
