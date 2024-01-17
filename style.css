@@ -64,7 +64,8 @@ body {
 
 .desc-title{
    word-spacing: 0.65rem;
-    
+    text-align: justify;
+  text-justify: inter-word;
 }
 .description {
     text-align: justify;
